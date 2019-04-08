@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "tienhoang88/hello-docker",
+    "Name": "tienhoang88/resume",
     "Update": "true"
   },
   "Ports": [
