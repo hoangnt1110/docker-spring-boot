@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "tienhoang88/hello-docker",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "9080"
+    }
+  ],
+  "Logging": "/var/log/nginx"
+}
