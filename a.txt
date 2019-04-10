@@ -1,10 +1,17 @@
-'##::::'##::'#######::'##:::::'##::::'########::'#######:::::'########:::'#######:::::'####:'##::: ##::::::::::'##::::'###::::'##::::'##::::'###::::
- ##:::: ##:'##.... ##: ##:'##: ##::::... ##..::'##.... ##:::: ##.... ##:'##.... ##::::. ##:: ###:: ##:::::::::: ##:::'## ##::: ##:::: ##:::'## ##:::
- ##:::: ##: ##:::: ##: ##: ##: ##::::::: ##:::: ##:::: ##:::: ##:::: ##: ##:::: ##::::: ##:: ####: ##:::::::::: ##::'##:. ##:: ##:::: ##::'##:. ##::
- #########: ##:::: ##: ##: ##: ##::::::: ##:::: ##:::: ##:::: ##:::: ##: ##:::: ##::::: ##:: ## ## ##:::::::::: ##:'##:::. ##: ##:::: ##:'##:::. ##:
- ##.... ##: ##:::: ##: ##: ##: ##::::::: ##:::: ##:::: ##:::: ##:::: ##: ##:::: ##::::: ##:: ##. ####::::'##::: ##: #########:. ##:: ##:: #########:
- ##:::: ##: ##:::: ##: ##: ##: ##::::::: ##:::: ##:::: ##:::: ##:::: ##: ##:::: ##::::: ##:: ##:. ###:::: ##::: ##: ##.... ##::. ## ##::: ##.... ##:
- ##:::: ##:. #######::. ###. ###:::::::: ##::::. #######::::: ########::. #######:::::'####: ##::. ##::::. ######:: ##:::: ##:::. ###:::: ##:::: ##:
+'##::::'##::'#######::'##:::::'##::::'########::'#######:::::'########:::'#######:::::'####:'##::: ##::::::::::'##::::'###::::'##::::'##::::'###::::
+
+ ##:::: ##:'##.... ##: ##:'##: ##::::... ##..::'##.... ##:::: ##.... ##:'##.... ##::::. ##:: ###:: ##:::::::::: ##:::'## ##::: ##:::: ##:::'## ##:::
+
+ ##:::: ##: ##:::: ##: ##: ##: ##::::::: ##:::: ##:::: ##:::: ##:::: ##: ##:::: ##::::: ##:: ####: ##:::::::::: ##::'##:. ##:: ##:::: ##::'##:. ##::
+
+ #########: ##:::: ##: ##: ##: ##::::::: ##:::: ##:::: ##:::: ##:::: ##: ##:::: ##::::: ##:: ## ## ##:::::::::: ##:'##:::. ##: ##:::: ##:'##:::. ##:
+
+ ##.... ##: ##:::: ##: ##: ##: ##::::::: ##:::: ##:::: ##:::: ##:::: ##: ##:::: ##::::: ##:: ##. ####::::'##::: ##: #########:. ##:: ##:: #########:
+
+ ##:::: ##: ##:::: ##: ##: ##: ##::::::: ##:::: ##:::: ##:::: ##:::: ##: ##:::: ##::::: ##:: ##:. ###:::: ##::: ##: ##.... ##::. ## ##::: ##.... ##:
+
+ ##:::: ##:. #######::. ###. ###:::::::: ##::::. #######::::: ########::. #######:::::'####: ##::. ##::::. ######:: ##:::: ##:::. ###:::: ##:::: ##:
+
 ..:::::..:::.......::::...::...:::::::::..::::::.......::::::........::::.......::::::....::..::::..::::::......:::..:::::..:::::...:::::..:::::..::
 [2m2017-08-15 05:03:50.084[0;39m [32m INFO[0;39m [35m5[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.e.h.h.HelloDockerApplication          [0;39m [2m:[0;39m Starting HelloDockerApplication v0.0.1-SNAPSHOT on 0677bf02210b with PID 5 (/hello-docker-app.jar started by root in /)
 [2m2017-08-15 05:03:50.106[0;39m [32m INFO[0;39m [35m5[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.e.h.h.HelloDockerApplication          [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
@@ -21,7 +28,7 @@
 [2m2017-08-15 05:03:56.842[0;39m [32m INFO[0;39m [35m5[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'httpPutFormContentFilter' to: [/*]
 [2m2017-08-15 05:03:56.843[0;39m [32m INFO[0;39m [35m5[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'requestContextFilter' to: [/*]
 [2m2017-08-15 05:03:58.755[0;39m [32m INFO[0;39m [35m5[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerAdapter[0;39m [2m:[0;39m Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46fbb2c1: startup date [Tue Aug 15 05:03:50 GMT 2017]; root of context hierarchy
-[2m2017-08-15 05:03:59.002[0;39m [32m INFO[0;39m [35m5[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/hello/{name}]}" onto public java.lang.String com.example.howtodoinjava.hellodocker.HelloDockerRestController.helloDocker(java.lang.String)
+[2m2017-08-15 05:03:59.002[0;39m [32m INFO[0;39m [35m5[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/hello/{name}]}" onto public java.lang.String org.com.howtodo.HelloDockerRestController.helloDocker(java.lang.String)
 [2m2017-08-15 05:03:59.011[0;39m [32m INFO[0;39m [35m5[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 [2m2017-08-15 05:03:59.012[0;39m [32m INFO[0;39m [35m5[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 [2m2017-08-15 05:03:59.108[0;39m [32m INFO[0;39m [35m5[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m [2m:[0;39m Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
